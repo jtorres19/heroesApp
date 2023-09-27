@@ -3,7 +3,7 @@ import { FormControl, FormGroup } from "@angular/forms";
 import { Hero, Publisher } from "../../interfaces/hero.interface";
 import { HeroesService } from "../../services/heroes.service";
 import { ActivatedRoute, Router } from "@angular/router";
-import { filter, map, switchMap, tap } from "rxjs";
+import { filter, switchMap } from "rxjs";
 import { MatSnackBar } from "@angular/material/snack-bar";
 import { MatDialog } from "@angular/material/dialog";
 import { ConfirmDialogComponent } from "../../components/confirm-dialog/confirm-dialog.component";
